@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(to bottom, #e8fffb, #69e1d9);
+    font-family: Montserrat;
+}
+
+#container {
+    width: 40%;
+    text-align: center;
+    /* background: url(./Image/bg5.png); */
+    background: linear-gradient(to top, #e8fffb, #69e1d9);
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 50px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 30px 25px #4ecec5;
+
+}
+
+#status {
+    margin-top: 20px;
+}
+
+#question,
+#status {
+    text-align: center;
+}
+
+#progress {
+    width: 100%;
+    height: 12px;
+    background-color: #baf3eb;
+    border-radius: 24px;
+}
+
+#finished {
+    position: relative;
+    background-color: #00c6ca;
+    width: 0%;
+    height: 12px;
+    border-radius: 24px;
+}
+
+#result {
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    height: 12px;
+    background-color: #baf3eb;
+    border-radius: 24px;
+    margin-top: 70px;
+}
+
+
+#correct {
+    position: relative;
+    float: left;
+    background-color: #33d36e;
+    width: 0%;
+    height: 12px;
+    border-radius: 24px;
+}
+
+#wrong {
+    position: relative;
+    float: left;
+    background-color: red;
+    width: 0%;
+    height: 12px;
+    border-radius: 24px;
+    margin-left: -7px;
+    padding-right: 0px;
+}
+
+#status {
+    font-family: Georgia;
+    font-size: small;
+    letter-spacing: 0.15em;
+    color: darkblue;
+}
+
+ul {
+    font-family: Josefin Sans;
+    line-height: 1.5em;
+}
+
+li {
+    text-indent: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 24px 12px 24px 12px;
+    list-style-type: none;
+    width: 90%;
+    background-color: #ffffff;
+    color: #18638d;
+}
+
+li:hover {
+    background-color: #0fdaddb0;
+    color: white;
+}
+
+li:hover .circle {
+    background-color: #00497b;
+    color: white;
+}
+
+.circle {
+    float: left;
+    background-color: #e1fdf9;
+    color: #00497b;
+    border-radius: 50%;
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    text-indent: 7px;
+    vertical-align: bottom;
+}
+
+.congra {
+    color: green;
+    text-align: center;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.score {
+    margin-top: 50px;
+    font-size: xx-large;
+    color: darkblue;
+
+}
+
+.tryAgain {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #69e1d9;
+    border-radius: 22px;
+    border: 1px solid #7dd9f0;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Courier New;
+    font-size: 18px;
+    padding: 14px 42px;
+    text-decoration: none;
+}
